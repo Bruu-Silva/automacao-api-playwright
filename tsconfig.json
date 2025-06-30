@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "baseUrl": "./tests",                 
+    "types": ["node", "playwright"],
+    "outDir": "dist"
+  },
+  "include": ["tests/**/*.ts", "postCreateUser.spec.ts", "getOnlyUser.spec.ts"],
+  "exclude": ["node_modules"]
+}

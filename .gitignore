@@ -1,0 +1,14 @@
+# Dependências
+node_modules/
+
+# Diretórios do Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Outros
+.vscode/
+
+# Arquivos de ambiente
+.env
